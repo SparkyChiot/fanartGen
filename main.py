@@ -1,10 +1,24 @@
 from random import *
 
 
-modifiers = {
-    "title": "AU",
-    "variations": "we have these"
-}
+modifiers = [
+    {
+        "title": "AU",
+        "variations": ["robot", "steampunk", "angel", "demon", "vampire", "werewolf", "pirate", "witchcraft", "post-apocalyptic", "animal", "furry", "college", "wingfic", "band", "marching band", "circus", "demigod", "dragon", "fairy", "ghost", "horror", "academia", "mermaid", "orchestra", "royalty", "scientist", "space travel", "undead", "tattoo shop", "wild west"]
+    },
+    {
+        "title": "color palette",
+        "variations": ["pastel", "eyestrain", "monochrome", "analagous", "complementary", "split complementary", "triadic", "tetradic", "warm", "cool", "earth tones", "jewel tones", "muted", "greyscale", "B/W/R", "R/G/B"]
+    },
+    {
+        "title": "different art style",
+        "variations": ["toony", "realistic", "semi-realistic", "pixel art", "sketch", "lineart", "painterly"]
+    },
+    {
+        "title": "limited palette",
+        "variations": ["2 colors", "3 colors", "4 colors", "5 colors"]
+    },
+]
 
 fandoms = [
     {
